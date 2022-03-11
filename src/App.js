@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Player } from "video-react";
+import Form from "./components/Form";
+import ToDoList from "./components/ToDoList";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <header>
         <h2>What do you wanna do today!</h2>
       </header>
+      <Form />
+      <ToDoList />
     </div>
   );
 }
