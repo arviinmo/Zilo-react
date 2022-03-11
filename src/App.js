@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Player } from "video-react";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello Zilo</h1>
+      <header>
+        <h2>What do you wanna do today!</h2>
+      </header>
     </div>
   );
 }
