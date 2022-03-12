@@ -34,11 +34,7 @@ function App() {
   };
   //Save user information to LocalStorage
   const saveLocalTodos = () => {
-    if (localStorage.getItem("todos") === null) {
-      localStorage.setItem("todos", JSON.stringify([]));
-    } else {
-      localStorage.setItem("todos", JSON.stringify(todos));
-    }
+    localStorage.setItem("todos", JSON.stringify(todos));
   };
 
   const getLocalTodos = () => {
