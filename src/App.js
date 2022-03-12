@@ -34,7 +34,7 @@ function App() {
   };
   //Save user information to LocalStorage
   const saveLocalTodos = () => {
-    localStorage.setItem("todos", JSON.stringify(todo));
+    localStorage.setItem("todos", JSON.stringify(todos));
   };
 
   const getLocalTodos = () => {
